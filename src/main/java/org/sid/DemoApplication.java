@@ -17,6 +17,7 @@ public class DemoApplication {
 		produitRepository.save(new Produit("dell", 2000, 20));
 		produitRepository.save(new Produit("acer", 1000, 10));
 		produitRepository.save(new Produit("mac", 7000, 90));
+		produitRepository.save(new Produit("rabah", 7000, 90));
 		
 		produitRepository.findAll().forEach(p->System.out.println(p.getDesignation()));
 	}
